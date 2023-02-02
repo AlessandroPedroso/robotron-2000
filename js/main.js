@@ -66,7 +66,7 @@ const manipulaDados = (operacao, controle) =>{
     console.log(pecas[peca])
 
     estatisticas.forEach((elemento)=>{
-        
+
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
     })
  }
